@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fae3e3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Hace que se vea en medio*/
+.contenedor-comun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 40px 20px;
+}
+
+.formulario{
+    background: #f7d4bc;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+/*Separacion entre lineas*/
+.grupo-formulario {
+    margin-bottom: 5px;
+}
+
+/*Estilo de las cajas de ingreso de datos*/
+.grupo-formulario input{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/*Focus para cuando uno tenga el puntero encima o clickee derechamente*/
+.grupo-formulario input:focus {
+    outline: none;
+    border-color: #c98bb9;
+}
+
+.btn_register{
+    width: 100%;
+    padding: 15px;
+    background: #9c6a86;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+
