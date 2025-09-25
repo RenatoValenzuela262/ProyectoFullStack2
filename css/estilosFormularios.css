@@ -1,3 +1,45 @@
+:root {
+    --fondo-principal: #fae1dd;
+    --contenedor: #f0d2b2;
+    --texto-principal: #7d4f50;
+    --boton: #a56c79;
+    --boton-hover: #8c4f5e;
+    --fuente: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: var(--contenedor);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--boton);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: var(--texto-principal);
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--contenedor);
+    padding: 10px 0;
+}
+
+nav a {
+    color: var(--texto-principal);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--boton-hover);
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     background: #fae3e3;

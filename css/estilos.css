@@ -9,9 +9,25 @@ h1{
     width: 25%;
 }
 
-.padre{
+/* Navegación */
+nav {
     display: flex;
+    justify-content: center;
+    background-color: var(--contenedor);
+    padding: 10px 0;
 }
+
+nav a {
+    color: var(--texto-principal);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--boton-hover);
+}
+
 
 /* Estilos generales */
 * {
